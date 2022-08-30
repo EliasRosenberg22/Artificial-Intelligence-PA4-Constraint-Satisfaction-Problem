@@ -1,0 +1,17 @@
+To run the Map-Coloring problem CSP:
+1) right click on the map_coloring_class.py
+2) click 'run'
+- to get this class to run, you must instantiate all the variables with territory names and domains, and give that information
+to a CSP object that holds all the variables, domains of the variables, and the constraints.
+- You also need to instantiate an algorithms object that holds the backtracking algorithm and heuristics
+- Once you have csp object to run in the backtracking algorithm, you're all set.
+
+To run the Circuit-Board problem CSP:
+1) right click on the circuit_board_class.py
+2) click 'run'
+- to get this class to run you need to instantiate components that take a length, width, and a character that they will be
+drawn as. 'a' for example.
+- you also need to instantiate the board that will be holding these components, which also takes a length and a width, as well
+as a character that you want the background of the board to be. In ASCII it is a '.'
+-this CSP implementation only requires a list of components and the board. Constraints are based on overlapping values, not
+predetermined geographical relationships, so they do not need to be given.
